@@ -1,0 +1,104 @@
+
+*{
+    margin:0;
+    padding: 0;
+font-family: 'Times New Roman', Times, serif;
+box-sizing:border-box;
+}
+
+#page ul li{
+    
+    display: inline-block;
+    margin: 10px 20px;
+list-style-type: style none;;
+align-items: center;
+    
+}
+#page ul li a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration:none ;
+}
+h1
+{
+    color: aliceblue;
+    font-size:100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lm h1{
+    font size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#lm a
+{
+    color: aliceblue;
+    font-size: 100px;
+    text-decoration:none ;
+}
+#lm p{
+    font-size:30px ;
+}
+a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration:none ;
+}
+#mc h1{
+    font size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+h3{
+    font size: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#mc a
+{
+   color: black; 
+    
+    text-decoration:none ;
+}
+#ip h1{
+    font size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 9em;
+    height: 3em;
+    background-color: aliceblue;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #71d8a0,-6px -6px -12px #7ecc73;
+}
+.btn ::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#0fd850 0%, #f9f047 100%);
+transition: .5s ease;
+z-index: -1;
+}
+.btn :hover ::before{
+    width: 9em;
+
+}
